@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ecops</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		li a{
+				text-decoration: none;
+			}
+			li{
+				list-style-type: none;
+			}
+			.navbar {
+  overflow: hidden;
+  background-color:green;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(53,53,53) ;
+}
+
+.dropdown-content {
+  display: none;
+  color: white;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  border: 1px solid white;
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(53,53,53);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+		footer{
+				background: #000000;
+				color: white;
+
+			}
+			#qq li{
+				padding-bottom: 3px;
+			}
+			#wee li{
+				padding-bottom: 3px;
+			}
+			#wee1{
+				padding-bottom: 3px;
+			}
+			li a{
+			text-decoration: none;
+			color: white;
+		}
+		li{
+			list-style-type: none;}
+
+		
+	</style>
+</head>
+<body>
+<div id="menu">
+		<div id="pic" style="background-color: rgb(53,53,53);" ><center><img src="logo.jpeg" style="width:200px;height:100px;"></center><a href="login.html" style="text-decoration: none;position: relative;left:95%;bottom:100px;color:white;" >login</a></div>
+		<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn"onclick="window.location.href = 'our organisation.html';">Our Organisation
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="missionandvission.html">Mission and Vision</a>
+      <a href="organisation.html">Organisation Structure</a>
+      <a href="policeranks.html">Police Ranks</a>
+      <a href="medals.html">Medals</a>
+      <a href="emregency.html">Link 2</a>
+      <a href="dosanddonts.html">Do's and Don'ts</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href = 'citizenservices.html';">Citizen Services 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="compliant form.html">File a Complaint</a>
+      <a href="passport.html">Passport Status</a>
+      <a href="echalanstatus.html">E-Chalan Status</a>
+      <a href="citizencharter.html">Citizen Charter</a>
+      <a href="criminals.html">Most Wanted Criminals</a>
+      
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn " onclick="window.location.href = 'applicationform.html';">Application Forms 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="armed.html">Armed License</a>
+      <a href="pass.html">Passport License</a>
+      <a href="driving.html">Driving License</a>
+      
+      
+    </div>
+  </div>
+  <a href="faqs.html">FAQ'S</a>
+  <div class="dropdown">
+    <button class="dropbtn "onclick="window.location.href = 'links.html';">External Links 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.interpol.int/en">Interpol</a>
+      <a href="https://wcd.nic.in/">Ministry of Women and Child</a>
+      <a href="http://www.cbi.gov.in">CBI</a>
+      <a href="https://mha.gov.in/">Ministry of Human Affairs</a>
+      <a href="https://www.digitalindia.gov.in">Digital India</a>
+      <a href="https://rti.gov.in/">RTI</a>
+     
+    </div>
+  </div> 
+  
+</div>
+	</div>
+<div>
+	<fieldset>
+		<legend><center>Armed License</center></legend>
+		<form action="index.php" method="POST">
+					<pre ><b>Name:</b>              <input type="text" name="nam"required/></pre>
+					<pre ><b>Phone:</b>             <input type="text" name="phone"required/></pre>
+					<pre ><b>Email:</b>             <input type="email" name="email"required/></pre>
+          <pre ><b>Dist:</b>              <input type="text" name="dist"required/></pre>
+          <pre ><b>P.S.:</b>              <input type="text" name="ps"required/></pre>
+          <pre ><b>Year:</b>              <input type="text" name="year"required/></pre>
+          <pre ><b>FIR No.:</b>           <input type="text" name="fir_no"required/></pre>
+          <pre ><b>Date:</b>              <input type="Date" name="date"required/></pre>
+          <pre><b>Place of occurance shown by :</b> 
+          <pre ><b>Name:</b>              <input type="text" name="nam1"required/></pre>
+          <pre ><b>Father's Name:</b>             <input type="text" name="f_name"required/></pre>
+					<pre><b><p style="position: relative;top: 90px;" name="add_wist">Address:</p></b>                   <textarea rows="10" cols="70"></textarea></pre>
+          <pre><b>M.O. crime(if applicable) :</b>
+          <pre ><b>Major Head:</b>              <input type="text" name="major_head"/></pre>
+          <pre ><b>Minor Head:</b>              <input type="text" name="minor_head"/></pre>
+          <pre ><b>Methods:</b>                 <input type="text" name="method"/></pre>
+          <pre ><b>Conveyanced used:</b>        <input type="text" name="con_used"/></pre>
+          <pre ><b>Character Assumed:</b>       <input type="text" name="ch_assumed"/></pre>
+          <pre ><b>Language/Slang Usesd:</b>    <input type="text" name="sal_used"/></pre>
+          <pre ><b>Special Feature 1:</b>       <input type="text" name="sp_1"/></pre>
+          <pre ><b>Special Feature 2:</b>       <input type="text" name="sp_2"/></pre>
+          <pre ><b>Special Feature 3:</b>       <input type="text" name="sp_3"/></pre>
+          <pre ><b>Special Feature 4:</b>       <input type="text" name="sp_4"/></pre>
+          <pre><b>Type of Place of Occurance:</b><input type="text" name="occ_type"/></pre>
+          <pre><b><p style="position: relative;top: 90px;" name="ty_place">Type of Property attaked:</p></b>                           <textarea rows="10" cols="60"></textarea></pre>
+          <pre><b><p style="position: relative;top: 90px;" name="ty_place">Motive of Crime:</p></b>                           <textarea rows="10" cols="70"></textarea></pre>
+          
+          <pre ><b>Witness 1:</b></pre>
+                 <pre ><b>Name:</b>              <input type="text" name="name_wit"required/></pre>
+                 <pre><b><p style="position: relative;top: 90px;" name="add_wit1">Address:</p></b>                   <textarea rows="10" cols="70"></textarea></pre>
+					<pre ><b>Witness 2:</b></pre>
+                 <pre ><b>Name:</b>              <input type="text" name="name_wit2"required/></pre>
+                 <pre><b><p style="position: relative;top: 90px;" name="add_wit2">Address:</p></b>                   <textarea rows="10" cols="70"></textarea></pre>
+                                                      <pre><b>Investigating Officer :</b></pre>
+                                                        <pre ><b>Name:</b>              <input type="text" name="nam_off"required/></pre>
+                                                          <pre ><b>Rank:</b>              <input type="text" name="rank"required/></pre>
+                                                            <pre ><b>Date:</b>              <input type="date" name="date_off"required/></pre>        
+					<center><input type="reset" name="rese" value="Reset"><input type="submit" name="subm" value="Submit"></center>
+
+
+
+				</form>
+	</fieldset>
+</div>
+</body>
+<footer>
+	<div id="qq" style="text-align: left;display: inline-block;">
+		<h5 style="padding-left: 40px;padding-top: 10px;border-bottom: 1px solid white"><ul>Site Links</ul></h5>
+		<ul style="text-decoration: none;list-style-type: none;padding-left: 60px;">
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="our organisation.html">our organisation</a></li>
+			<li><a href="citizenservices.html">citizen services</a></li>
+			<li><a href="faqs.html" >FAQ's</a></li>
+			<li><a href="links.html">External Links</a></li>
+			<li><a href="applicationform.html">Application Forms</a></li>
+		</ul>
+	</div>
+	<div id="wee"  style="text-align: left;display: inline-block;position: relative;left: 100px;bottom: 60px;">
+		<h5 style="border-bottom: 1px solid white"><uL>Follow Us On</uL></h5>
+		<ul style="text-decoration: none;list-style-type: none; padding-left: 40px;">
+			<li><a href="https://www.facebook.com">Facebook</a></li>
+			<li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+			<li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
+			
+		</ul>
+	</div>
+	<div id="wee1"  style="text-align: left;display: inline-block;position: relative;left: 200px;bottom: 90px;">
+		<h5 style="border-bottom: 1px solid white;padding-bottom: 10px;"><center>Legal</center></h5>
+		<ul style="text-decoration: none;list-style-type: none; padding-left: 30px;">
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Terms</a></li>
+			
+			
+		</ul>
+	</div>
+	<div id="wee2"  style="text-align: left;display: inline-block;position: relative;left: 800px;bottom: 0px;">
+		<h5 style="border-bottom: 1px solid white" ><center><ul>Contact Us</ul></center></h5>
+		<p><center>Ecops<br>Patna, Bihar (800005), India<br>
+Phone: +91-0612-237 1715 / 237 2715<br>
+FAX : +91-0612-2670631 , 0612-2660480</center></p>
+<center><img src="home.jpeg" width="100px" height="50px"></center>
+	</div>
+	<p><center>CopyRight© 2019 India<br>All Rights Reserved</center></p>
+	
+</footer>
+</html>
